@@ -1,5 +1,6 @@
 import EventExample from './components/EventExample';
 import FormExample from './components/FormExample';
+import FormFormikExample from './components/FormFormikExample';
 import NavBar from './components/NavBar';
 import PropsExample from './components/PropsExample';
 import RenderExample from './components/RenderExample';
@@ -14,6 +15,7 @@ function App() {
             <EventExample/>
             <RenderExample/>
             <FormExample/>
+            <FormFormikExample/>
         </div>
     );
 }
