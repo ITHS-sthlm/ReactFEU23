@@ -1,23 +1,25 @@
+import NavBar from './components/NavBar';
+import StateExample from './components/StateExample';
+import PropsExample from './components/PropsExample';
 import EventExample from './components/EventExample';
+import RenderExample from './components/RenderExample';
 import FormExample from './components/FormExample';
 import FormFormikExample from './components/FormFormikExample';
-import NavBar from './components/NavBar';
-import PropsExample from './components/PropsExample';
-import RenderExample from './components/RenderExample';
-import StateExample from './components/StateExample';
+import WebAPI from './components/WebAPI';
 
-function App() {
+const App = () => {
     return (
         <div>
             <NavBar />
             <StateExample />
-            <PropsExample firstname={'Richard'} age={29} />
+            <PropsExample name={"Alice"} age={25} /> {/* Använd PropsExample med props */}
             <EventExample/>
             <RenderExample/>
             <FormExample/>
             <FormFormikExample/>
+            <WebAPI/>
         </div>
     );
-}
+};
 
 export default App;
